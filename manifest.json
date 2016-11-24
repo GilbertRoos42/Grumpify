@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+
+  "name": "Grumpify",
+  "description": "Takes all those annoying non-Grumpy cat images on a webpage and makes them Grumpy cat images! Yay!",
+  "version": "1.0",
+
+  "content_scripts": [{
+    "js": ["content.js"],
+    "matches": ["http://*/*", "https://*/*"]
+  }]
+}
